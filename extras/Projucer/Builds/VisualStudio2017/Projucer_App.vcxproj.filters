@@ -2427,6 +2427,9 @@
     <ClInclude Include="..\..\Source\ProjectSaving\jucer_ProjectExport_CodeBlocks.h">
       <Filter>Projucer\ProjectSaving</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\ProjectSaving\jucer_ProjectExport_EMake.h">
+      <Filter>Projucer\ProjectSaving</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\ProjectSaving\jucer_ProjectExport_Make.h">
       <Filter>Projucer\ProjectSaving</Filter>
     </ClInclude>

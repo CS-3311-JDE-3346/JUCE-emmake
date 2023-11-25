@@ -66,6 +66,8 @@
   #define       JUCE_BSD 1
 #elif defined (LINUX) || defined (__linux__)
   #define       JUCE_LINUX 1
+#elif defined (EMSCRIPTEN) || defined (__EMSCRIPTEN__)
+  #define       JUCE_EMSCRIPTEN 1
 #elif defined (__APPLE_CPP__) || defined (__APPLE_CC__)
   #define CF_EXCLUDE_CSTD_HEADERS 1
   #include <TargetConditionals.h> // (needed to find out what platform we're using)
@@ -157,7 +159,7 @@
 #endif
 
 //==============================================================================
-#if JUCE_LINUX || JUCE_ANDROID || JUCE_BSD
+#if JUCE_LINUX || JUCE_ANDROID || JUCE_BSD || JUCE_EMSCRIPTEN
 
   #ifdef _DEBUG
     #define JUCE_DEBUG 1

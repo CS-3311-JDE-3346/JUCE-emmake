@@ -562,6 +562,8 @@
             resource="0" file="Source/ProjectSaving/jucer_ProjectExport_Android.h"/>
       <FILE id="Kxo6ef" name="jucer_ProjectExport_CodeBlocks.h" compile="0"
             resource="0" file="Source/ProjectSaving/jucer_ProjectExport_CodeBlocks.h"/>
+      <FILE id="b4tnoS" name="jucer_ProjectExport_EMake.h" compile="0" resource="0"
+            file="Source/ProjectSaving/jucer_ProjectExport_EMake.h"/>
       <FILE id="wLX3RL" name="jucer_ProjectExport_Make.h" compile="0" resource="0"
             file="Source/ProjectSaving/jucer_ProjectExport_Make.h"/>
       <FILE id="rMbSVA" name="jucer_ProjectExport_MSVC.h" compile="0" resource="0"
