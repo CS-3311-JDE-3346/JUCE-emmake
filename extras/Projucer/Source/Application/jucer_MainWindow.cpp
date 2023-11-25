@@ -697,8 +697,8 @@ bool MainWindow::perform (const InvocationInfo& info)
 void MainWindow::valueChanged (Value& value)
 {
     if (value == projectNameValue)
-        setName (currentProject != nullptr ? currentProject->getProjectNameString() + " - Projucer"
-                                           : "Projucer");
+        setName (currentProject != nullptr ? currentProject->getProjectNameString() + " - Projucer (emprofile)"
+                                           : "Projucer (emprofile)");
 }
 
 void MainWindow::changeListenerCallback (ChangeBroadcaster* source)
